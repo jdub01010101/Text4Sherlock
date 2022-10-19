@@ -1,12 +1,10 @@
-# Log4jSherlock
-Version 1.0.2021.12.19
-
-
+# Text4Sherlock
 ---------------------
 # Overview
+This is a fork of Maelstromage/Log4jSherlock. It is no where near where it works yet. Just working through some ideas on how to modify the code for Text4Shell.
 
-Log4j Scanner coded in Powershell, so you can run it in windows! This tool scans for JAR, WAR, EAR, JPI, HPI that contain the effected JndiLookup.class even in nested files.
-Scans nested files searches for the effected JNDI class. pulls version and reports in CSV, JSON, and txt log. reports error i.e. access issues to folders where files could be missed.
+Text4Shell Scanner coded in Powershell, so you can run it in windows! This tool scans for JAR, WAR, EAR, JPI, HPI that contain the effected JndiLookup.class even in nested files.
+Scans nested files searches for the effected StringFactory class. Pulls version and reports in CSV, JSON, and txt log. reports error i.e. access issues to folders where files could be missed.
 
 # CVE Detection
 
